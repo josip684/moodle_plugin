@@ -9,7 +9,7 @@ $url = new moodle_url('/report/mojreport/index.php');
 // Check basic permission.
 require_capability('report/mojreport:view', $systemcontext);
 // Get the language strings from language file.
-
+//
 $strgrade = get_string('grade', 'report_mojreport');
 $strcourse = get_string('course', 'report_mojreport');
 $strmojreport = get_string('mojreport', 'report_mojreport');
