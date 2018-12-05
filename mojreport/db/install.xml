@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <XMLDB PATH="report/mojreport/db" VERSION="20170501" COMMENT="XMLDB file for Moodle report/mojreport">
+    <TABLES>
+      <TABLE NAME="report_mojreport" COMMENT="Default comment for report_mojreport, please edit me">
+        <FIELDS>
+          <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" />
+        </FIELDS>
+        <KEYS>
+          <KEY NAME="primary" TYPE="primary" FIELDS="id" />
+        </KEYS>
+      </TABLE>
+    </TABLES>
+  </XMLDB>
+  
+  
